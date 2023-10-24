@@ -49,6 +49,7 @@ public class Example {
         System.out.println("\n" + reconstructed);
     }
 }
+```
 
 Obs.: os algoritmos disponíveis são **shamir**, **pss**, **css**, **krawczyk** e **pvss**, as classes dentro do pacote **ifsc.secstor.library.facade** estão documentadas seguindo os padrões do **javadoc**.
 
