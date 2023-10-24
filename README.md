@@ -65,4 +65,4 @@ Disponível em: <https://github.com/Archistar/archistar-smc>
 
 ---
 
-🌟 Contribuidor Principal: [Acacio-coding](https://github.com/Acacio-coding/Secstor-library)
+👤 Contribuidor Principal: [Acacio-coding](https://github.com/Acacio-coding/Secstor-library)
