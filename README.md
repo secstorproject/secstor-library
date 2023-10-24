@@ -1,6 +1,6 @@
 # Secstor Library 📚
 
-Biblioteca para utilização de algoritmos de compartilhamento de segredos e anonimização de dados para adequação de sistemas à LGPD.
+Biblioteca para utilização de algoritmos de compartilhamento de segredos para adequação de sistemas à LGPD.
 
 ## Requisitos 🛠
 
