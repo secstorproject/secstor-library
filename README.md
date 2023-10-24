@@ -20,7 +20,7 @@ Depois, siga as instruções:
 4. Crie uma classe com o método **main**;
 5. Utilize a biblioteca seguindo o exemplo abaixo:
 
-\`\`\`java
+```java
 import com.ifsc.secstor.library.facade.EngineMaker;
 
 public class Example {
@@ -30,28 +30,25 @@ public class Example {
 
         EngineMaker engineMaker = new EngineMaker(N, K);
 
-        //Informação a ser dividida e reconstruída
+        // Data to be split and reconstructed
         String data = "teste";
 
-        //Divisão
+        // Splitting the data
         engineMaker.split(data, "shamir");
 
-        
-        //Printando as chaves geradas, lembre-se de utilizar 
-        //o get na engine que você realizou split
+        // Printing the generated keys. Remember to use the get method 
+        // for the engine where the split was performed
         engineMaker.getShamir().getPieces().forEach(System.out::println);
         
-        //Reconstrução 
-        //N chaves
+        // Reconstruction using N keys
         String reconstructed = engineMaker.reconstruct("shamir");
         System.out.println("\n" + reconstructed);
 
-        //K chaves ou um número de chaves, onde K <= número de chaves <= N
+        // Reconstruction using K keys or a number of keys, where K <= number of keys <= N
         reconstructed = engineMaker.reconstruct("shamir", K);
         System.out.println("\n" + reconstructed);
     }
 }
-\`\`\`
 
 Obs.: os algoritmos disponíveis são **shamir**, **pss**, **css**, **krawczyk** e **pvss**, as classes dentro do pacote **ifsc.secstor.library.facade** estão documentadas seguindo os padrões do **javadoc**.
 
